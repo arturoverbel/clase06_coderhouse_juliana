@@ -5,7 +5,7 @@ const fs = require("fs")
 const moment = require("moment")
 
 const app = express()
-const PORT = 8080 
+const PORT = 3000 
 let visitas = 0;
 try {
     let data = fs.readFileSync("visitas");
